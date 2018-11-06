@@ -5,7 +5,7 @@ import cucumber.api.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(dryRun = true,
-features={"../features/loginTest.feature"})
+features={"../features/featureToRun.feature"})
 
 //@CucumberOptions(tags = {"@login"})
 @RunWith(Karate.class)
